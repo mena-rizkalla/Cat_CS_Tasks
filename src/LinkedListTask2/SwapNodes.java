@@ -9,8 +9,6 @@ public class SwapNodes {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
-
-
     public  ListNode swapPairs(ListNode head) {
 
        ListNode dummy = new ListNode(0);
