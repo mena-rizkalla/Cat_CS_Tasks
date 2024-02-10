@@ -1,4 +1,4 @@
-package Task1;
+package ArrayTask1;
 
 public class LengthofLastWord {
     public int lengthOfLastWord(String s) {

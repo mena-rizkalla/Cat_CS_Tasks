@@ -1,5 +1,4 @@
-import Task1.GroupAnagrams;
-import Task1.LengthofLastWord;
+import ArrayTask1.GroupAnagrams;
 
 public class main {
 

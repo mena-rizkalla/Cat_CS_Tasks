@@ -1,9 +1,6 @@
-package Task1;
+package ArrayTask1;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
