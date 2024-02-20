@@ -2,6 +2,7 @@ import ArrayTask1.GroupAnagrams;
 import DoubleLinkedList.BrowserHistory;
 import DoubleLinkedList.LRUCache;
 import LinkedListTask2.SwapNodes;
+import task4.ProductofArrayExceptSelf;
 
 public class main {
 
@@ -21,6 +22,9 @@ public class main {
         String param_6 = obj.back(2);
         String param_7 = obj.back(7);
 
+        ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
+        int[] arr = {1 ,2 ,3 ,4};
+        productofArrayExceptSelf.productExceptSelf(arr);
 
         System.out.println("mena");
     }
