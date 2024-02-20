@@ -3,6 +3,7 @@ import DoubleLinkedList.BrowserHistory;
 import DoubleLinkedList.LRUCache;
 import LinkedListTask2.SwapNodes;
 import task4.ProductofArrayExceptSelf;
+import task4.RemoveAllAdjacentDuplicates;
 
 public class main {
 
@@ -25,6 +26,9 @@ public class main {
         ProductofArrayExceptSelf productofArrayExceptSelf = new ProductofArrayExceptSelf();
         int[] arr = {1 ,2 ,3 ,4};
         productofArrayExceptSelf.productExceptSelf(arr);
+
+        RemoveAllAdjacentDuplicates removeAllAdjacentDuplicates = new RemoveAllAdjacentDuplicates();
+        removeAllAdjacentDuplicates.removeDuplicates("abbaca");
 
         System.out.println("mena");
     }
