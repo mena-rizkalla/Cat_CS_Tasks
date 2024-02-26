@@ -2,6 +2,7 @@ import ArrayTask1.GroupAnagrams;
 import DoubleLinkedList.BrowserHistory;
 import DoubleLinkedList.LRUCache;
 import LinkedListTask2.SwapNodes;
+import stack.EvaluateReverse;
 import task4.ProductofArrayExceptSelf;
 import task4.RemoveAllAdjacentDuplicates;
 
@@ -29,6 +30,9 @@ public class main {
 
         RemoveAllAdjacentDuplicates removeAllAdjacentDuplicates = new RemoveAllAdjacentDuplicates();
         removeAllAdjacentDuplicates.removeDuplicates("abbaca");
+
+        EvaluateReverse evaluateReverse = new EvaluateReverse();
+        evaluateReverse.evalRPN(new String[]{"4","13","5","/","+"});
 
         System.out.println("mena");
     }
